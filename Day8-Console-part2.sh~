@@ -1,0 +1,13 @@
+#!/bin/bash
+
+input=$1
+output="bug"
+
+while [ $output == bug ];
+do
+    echo $output
+    output=123
+done;
+echo $output
+
+#gawk -f Day8-Code.awk $input
